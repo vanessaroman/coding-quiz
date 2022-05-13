@@ -1,0 +1,18 @@
+.start{
+    background-color: lavenderblush;
+    height: 500px;
+    max-width: 600px;
+    display: flex;
+}
+
+.start button{
+    height: 50px;
+    width: 100px;
+}
+
+.firstQ{
+    background-color: rgb(202, 109, 140);
+    height: 500px;
+    max-width: 600px;
+    display: none;
+}
