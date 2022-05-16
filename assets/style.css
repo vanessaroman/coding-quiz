@@ -1,18 +1,90 @@
-.start{
-    background-color: lavenderblush;
-    height: 500px;
-    max-width: 600px;
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+body{
+    background-color: #4D814B;
+}
+
+
+li{
+    font-size: 20px;
+}
+
+button{
+    border-style: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #80A1D4;
+}
+h3{
     display: flex;
+    justify-content: center;
 }
 
-.start button{
-    height: 50px;
-    width: 100px;
-}
-
-.firstQ{
-    background-color: rgb(202, 109, 140);
-    height: 500px;
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;  
+    background-color: #cde5c7;
+    height: 400px;
     max-width: 600px;
-    display: none;
+    border-radius: 25px;
+}
+
+.start h1{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #7E6B8F;
+}
+
+.start button{  
+    width: 150px;
+}
+
+.startbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.quizWindow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;  
+    background-color: #FFD6DD;
+    height: 400px;
+    max-width: 600px;
+    border-radius: 25px;
+}
+
+.quizWindow h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.nextbtn, .nextbtn2, .nextbtn3, .submitbtn{
+    display: flex;
+    justify-content: center;
+}
+
+#ques2, #ques4{
+    background-color: #7E6B8F;
+}
+
+.timer p{
+    display: flex;
+    justify-content: center;
+    background-color: #cde5c7;
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 5px;
 }

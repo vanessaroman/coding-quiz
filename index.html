@@ -8,13 +8,124 @@
     <title>Quizaroo</title>
 </head>
 <body>
-    <main class="start">
-        <button id="startButton">Start Quiz</button>
-
-    </main>
-    <section id="firstQ">
+    <section class="start">
+    
+            <h1>Test your coding skills!</h1> 
+        
+        
+         <div class="startbtn"> <button id="startButton">Start Quiz</button> </div>  
+    
 
     </section>
+    <section>
+        <div class="timer">
+            <p class="timer-text"></p>
+        </div>
+    </section>
+    <section class="quizWindow" id="quizWindow">
+        <div id="question">
+            <h2>
+                How do you separate lines in html?
+            </h2>
+            <br>
+            <ul>
+                <li><input type="radio" name="ans">  &lt;p&gt;</li>
+                <li><input type="radio" name="ans">  &lt;h1&gt;</li>
+                <li><input type="radio" name="ans" id="right1">  &lt;br&gt;</li>
+                <li><input type="radio" name="ans">  &lt;li&gt;</li>
+            </ul>
+
+        </div>
+        <br>
+        <div>
+            <h3>Score: </h3>
+        </div>
+        <div class="nextbtn">
+            <button id="nextbtn">Next</button>
+        </div>
+    </section>
+
+    <section class="quizWindow" id="ques2">
+        <div id="question">
+            <h2>
+                Which of the following is NOT and input type?
+            </h2>
+            <br>
+            <ul>
+                <li><input type="radio" name="ans" id="right2">  secret</li>
+                <li><input type="radio" name="ans">  submit</li>
+                <li><input type="radio" name="ans">  text</li>
+                <li><input type="radio" name="ans">  reset</li>
+            </ul>
+
+        </div>
+      
+        <br>
+        <div>
+            <h3>Score: </h3>
+        </div>
+        <div class="nextbtn2">
+            <button id="nextbtn2">Next</button>
+        </div>
+    </section>
+
+    <section id="results">
+
+    </section>
+
+    <section class="quizWindow" id="ques3">
+        <div id="question">
+            <h2>
+                What is the purpose of the div tag?
+            </h2>
+            <br>
+            <ul>
+                <li><input type="radio" name="ans">  To create a link</li>
+                <li><input type="radio" name="ans" id="right3">  To group elements</li>
+                <li><input type="radio" name="ans">  To create an input box</li>
+                <li><input type="radio" name="ans">  To alter the look of the page</li>
+            </ul>
+
+        </div>
+        <br>
+        <div>
+            <h3>Score: </h3>
+        </div>
+        <div class="nextbtn3">
+            <button id="nextbtn3">Next</button>
+        </div>
+    </section>
+
+    <section class="quizWindow" id="ques4">
+        <div id="question">
+            <h2>
+                Which header tag will render the largest text?
+            </h2>
+            <br>
+            <ul>
+                <li><input type="radio" name="ans">  &lt;h2&gt;</li>
+                <li><input type="radio" name="ans">  &lt;h4&gt;</li>
+                <li><input type="radio" name="ans" id="right3">  &lt;h1&gt;</li>
+                <li><input type="radio" name="ans">  &lt;h3&gt;</li>
+            </ul>
+
+        </div>
+        <br>
+        <div>
+            <h3>Score: </h3>
+        </div>
+        <div class="submitbtn">
+            <button id="submitbtn">Submit</button>
+        </div>
+    </section>
+
+    <section class="quizWindow" id="resultsB">
+        <h2>
+            How did you do?
+        </h2>
+
+    </section>
+   
     <script src="./assets/script.js"></script>
 </body>
 </html>
