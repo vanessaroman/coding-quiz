@@ -1,4 +1,4 @@
-This project is not complete and I will continue to worl on it and resubmit as I advance my js. 
+This project is not complete and I will continue to work on it and resubmit as I advance my js. 
 
 My idead was to create different sections for the start page, questions, and results, which would come in and out of the page using js.
 
